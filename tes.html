@@ -1,30 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
     <head>
-        <title>deskripsi karakter</title>
+        <meta charset="UTF-8">
+        <title>My web portofolio</title>
     </head>
-    <body bgcolor="black">
-        <main style="color: rgb(252, 247, 247); text-align: center;">
-            <h1>Deskripsi Karakter</h1>
-            <p><b><i>ini adalah gambar karakter yang saya temukan di browser</i></b></p>
-        </main>
-        <img src="foto1.jpeg" alt="foto1" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-        <main style="color: rgb(252, 247, 247)">
-            <h4><b><i>ciri ciri gambar atau karakter di atas seperti</i></b></h4>
-            <ul>
-                <li>Rambut: Berwarna perak keabu-abuan (silver/grey) dengan gaya poni megar yang hampir menutupi sebagian dahi dan mata.</li>
-                <li>Mata: Memiliki mata tajam berwarna biru jernih dengan bulu mata yang tebal. Terdapat riasan merah tipis (red liner/blush) di sekitar lipatan dan bawah matanya.</li>
-                <li>Wajah & Kulit: Kulit cenderung cerah/pucat dengan semburat kemerahan (blush) halus di pipi dan hidungnya, mencerminkan cuaca dingin.</li>
-                <li>Pakaian: Menggunakan pakaian musim dingin yang sangat tebal, meliputi hoodie berbulu putih di bagian kapnya, serta syal besar berwarna abu-abu yang menutupi bagian bawah wajah hingga mulutnya.</li>
-                <li>Latar Belakang: Bernuansa musim dingin atau salju (winter), terlihat dari ornamen serpihan salju (snowflakes) di sekitarnya.</li>
-            </ul>
-        </main>
-        <video width="320" height="240" controls>
-            <source src="antent-hope-to-see-you-again-1080-ytshorts.savetube.me.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <footer style="color: rgb(252, 247, 247); text-align: center;">
-            <p>&copy; 2024 Deskripsi Karakter. All rights reserved.</p>
+    <body>
+        <header>
+            <h1>My Web Portofolio</h1>
+            <p>Selamat datang di web portofolio saya!</p>
+        </header>
+        <hr>
+        <h2>A. Identitas</h2>
+        <table border="1" cellpadding="10" cellspacing="0"
+            <tr>
+                <th>Foto</th>
+                <td><img src="image/foto2.png" alt="Foto Saya" width="400"></td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>Elyora Freesia</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Valerius</td>
+            </tr>
+            <tr>
+                <th>Deskripsi</th>
+                <td>Seorang gadis misterius yang memilih hidup dalam keheningan, seperti bunga freesia yang mekar di tempat yang tak tersentuh cahaya. Wajahnya lembut dan tenang, tetapi di balik tatapannya tersimpan kekuatan yang sulit dipahami. Ia tidak mencari perhatian ataupun pengakuan; keberadaannya sendiri sudah cukup untuk membuat suasana di sekitarnya berubah.</td>
+            </tr>
+            <tr>
+                <th>Kontak</th>
+                <td>Email: elyora@example.com</td>
+            </tr>
+            <tr>
+                <th>Pengalaman</th>
+                <td><ol>
+                    <li>Belajar etika, membaca buku, dan bermain piano.</li>
+                    <li>Aktif di klub sastra dan seni.</li>
+                    <li>Belajar ilmu sihir dan astronomi.</li>
+                    <li>Menjadi pustakawan di perpustakaan kerajaan.</li>
+                    <li>Berkelana ke berbagai kota untuk mencari buku-buku kuno.</li>
+                    <li>Pernah bekerja sebagai penasihat muda di istana.</li>
+                    <li>Menjelajahi reruntuhan tua bersama kelompok penjelajah.</li>
+                    <li>Menjadi penyihir pengembara yang sesekali kembali ke perpustakaan lamanya.</li>
+                </ol></td>
+            </tr>
+        </table>
+        <br>
+        <h2>B. Saling Berkenalan</h2>
+        <div style="background-color: #f2f2f2; padding: 20px; border-radius: 5px;">
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="gender">Jenis kelamin:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">lanang</option>
+                        <option value="female">perempuan</option>
+                    </select><br><br>
+                <label for="criteria">Kriteria:</label>
+                <input type="checkbox" id="friendly" name="criteria" value="friendly">
+                <label for="friendly">Ramah</label>
+                <input type="checkbox" id="nonchalant" name="criteria" value="nonchalant">
+                <label for="nonchalant">Nonchalant</label>
+                <input type="checkbox" id="smart" name="criteria" value="smart">
+                <label for="smart">Cerdas</label><br><br>
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Kirim">
+                <input type="reset" id="reset" name="reset" value="Reset">
+            </form>
+        </div>
+        <footer>
+            <hr style="width: 100%;">
+            <p style="text-align: center;">&copy; 2024 Elyora Freesia. All rights reserved.</p>
+            <a href="https://www.instagram.com/elyora_g/?utm_source=ig_web_button_share_sheet" target="_blank">
+                <img src="image/foto1.jpeg" width="40" height="40">
+            </a>
         </footer>
     </body>
 </html>
